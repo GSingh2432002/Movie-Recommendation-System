@@ -35,8 +35,7 @@ const Content = () => {
                     <div className='pt-2'/>
                     <p> Actors : {data.Actors}</p>
                     <div className='pt-2'/>
-                    <p> BoxOffice Collection : {data.Boxoffice}</p>
-                    <div className='pt-2'/>
+                    
                     <p> Genre : {data.Genre}</p>
                     <div className='pt-2'/>
                     <p> Language : {data.Language}</p>
@@ -45,7 +44,7 @@ const Content = () => {
                     <div className='pt-2'/>
                     <p> Year : {data.Year}</p>
                     <div className='pt-2'/>
-                    <p> imdbRating : {data.imdbRating}</p>
+                    <p> IMDb Rating : {data.imdbRating}</p>
                 </div>
             </div>
         }
