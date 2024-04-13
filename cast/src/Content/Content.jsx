@@ -20,15 +20,15 @@ const Content = () => {
         setSearchTerm("")
     }
   return (
-    <div className='h-screen bg-slate-800 pt-7'>
+    <div className='h-screen bg-blue-500 pt-7'>
         <div className='w-full flex items-center justify-center'>
             <input type='text' placeholder='Search Movies here....' className='text-[19px] mr-4 outline-none rounded-md p-2 w-[45%]' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
-            <button className="border border-white rounded-md p-2 text-white font-bold w-28" onClick={onSearchHandler}>Search</button>
+            <button className="border border-white rounded-md p-2 text-white font-bold w-28 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300 ..." onClick={onSearchHandler}>Search</button>
         </div>
         { Object.keys(data).length>0 &&
             <div className='mt-10 w-full flex items-center justify-center text-white font-bold'>
                 <div>
-                    <img src={data.Poster} alt="#" className='border border-white rounded-lg'/>
+                    <img src={data.Poster} alt="#" className='h-65 w-60 border border-white rounded-lg'/>
                 </div>
                 <div className='ml-5 bg-slate-700 p-2 rounded-md'>
                     <h1> Title : {data.Title}</h1>
