@@ -8,5 +8,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. \
 The page will reload when you make changes.
 
-#### Deploy here!
-Link:- https://castandco.netlify.app/
+#### Click here! 
+https://castandco.netlify.app/
